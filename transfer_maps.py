@@ -6,7 +6,7 @@ import xNormal
 xNormal.path = r"C:\Program Files\xNormal\3.19.3\x64\xNormal.exe"
 
 if len(sys.argv) < 4:
-    print("You have to run this script with two arguments:\n"
+    print("You have to run this script with three arguments:\n"
           "\n"
           "    python source_folder_meshes source_folder_maps destination_folder    "
           "\n")
@@ -92,7 +92,7 @@ else:
                 backward_ray_dist=0.1,
             )
         )
-        
+
     """
     print('-------------------------')
     print(source_configs)
