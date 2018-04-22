@@ -89,6 +89,7 @@ else:
         edge_padding=64,
         gen_normals=True,
         gen_ao=True,
+        gen_wire=True,
     )
 
     config = xNormal.config(source_configs, destination_configs, generation_config)
