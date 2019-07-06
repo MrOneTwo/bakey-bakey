@@ -1,3 +1,7 @@
+---
+tags: ["UX", "cg"]
+---
+
 # bakey-bakey
 
 Credits:
